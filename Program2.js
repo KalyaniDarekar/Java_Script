@@ -1,6 +1,6 @@
 //Simple addition Program
-i = 10;
-j = 4;
-k = 0;
+let i = 10;
+let j = 4;
+let k = 0;
 k = i+j;
 console.log(k);
