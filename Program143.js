@@ -1,0 +1,20 @@
+//even odd 
+function CheckEven(ino)
+{
+  if(ino %2==0)
+{
+    console.log("It is Even Number")
+}
+else 
+{
+    console.log("It is Odd Number")
+}  
+}
+
+
+function main()
+{
+let iValue = 11;
+CheckEven(iValue);
+}
+main();
