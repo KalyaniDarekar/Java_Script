@@ -1,4 +1,5 @@
-// Proper Name of Variable
+// take input from user but deu to its javascript we cant take input 
+//from user so we take hardcore input
 
 iValue1 = 1;
 iValue2 = 2;
