@@ -1,17 +1,14 @@
-function CheckDivisible(iNo)
+function PrintStar(iNo)
 {
-    if ((iNo %5) ==0)
+    let iCnt = 0;
+    for(iCnt = 1;iCnt <= iNo; iCnt++ )
     {
-        console.log("Number is Divisible by 5");
+        console.log("*");
     }
-    else 
-    {
-        console.log("Number is Not Divisible by 5");
-    }
-    
+  
 }
 function main()
 {
-    CheckDivisible(13);
+    PrintStar(5);
 }
 main();
